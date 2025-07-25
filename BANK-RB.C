@@ -9,7 +9,7 @@ struct customer
    float balance;
 
 };
-void main()
+int main()
 {
   struct customer oi;
   int i=1,j,k;
@@ -22,7 +22,7 @@ void main()
   {
     printf("\nFile not found ...");
     getch();
-    return;
+    return 0;
   }
   clrscr();
   SPACE(22);
@@ -48,5 +48,5 @@ void main()
   LINE;
   fclose(fp);
   getch();
-
+  return 0;
 }
